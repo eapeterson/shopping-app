@@ -1,0 +1,16 @@
+.app-title {
+	border-width: 5px;
+	border-color: red;}
+
+h1 {
+	font-size: 3em;}
+
+h1, h2 {
+	display: inline-block;
+	align-content: center;
+	font-family: ;}
+
+li {
+	font-weight: bold;
+	cursor: pointer;
+	}
