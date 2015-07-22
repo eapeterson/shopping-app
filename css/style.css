@@ -1,0 +1,38 @@
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 0px;}
+
+li {
+	font-weight: bold;
+	cursor: pointer;
+	}
+
+button {color: red;}
+
+#nextlist, #thirdlist {color: black}
+
+p, .todo, .hardware, #nextlist, #thirdlist {display: none;}
+
+.buyitems {list-style: none;
+	text-align: left;}
+
+.main {
+	text-align: center;
+	margin-left: 350px;
+ 	margin-right: 350px;
+ 	background-color: cadetblue;}
+
+.container {
+	margin-top: 20px;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Merienda One', cursive;
+	font-weight: 400;
+	}
+
+#reset-items {margin-top: 15px;}
+
+#saved {margin-top: 20px;}
+
+#nextlist, #thirdlist {margin-bottom: 10px;}

@@ -2,31 +2,37 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </head>
+
 <body class="main">
-	<div class="app-title">
-		<h1>Shopping
+	<div class="container">
 		<img src="http://i.imgur.com/uhYegD6.jpg" alt="Logo Image" width="93px">
-		List</h1>
-	</div>
-	<div class="list-add">
-		<h2>Grocery List</h2>
+		<h1>Shopping Lists</h1>
+		<br>
+		<h2 class="grocery">Grocery List</h2>
+		<h2 class="todo">To Do List</h2>
+		<h2 class="hardware">Hardware List</h2>
+		<button type="submit" id="nextlist">To Do List</button>
+		<button type="submit" id="thirdlist">Hardware List</button>
+		<br>
 		<input id="add-box">
-		<button type="submit" id="add-items">Add item</button>
-		<ul id="list" class="ui-sortable">
-			<input type="checkbox">Limes<br>
-			<input type="checkbox">Bananas<br>
-			<input type="checkbox">One large eggplant<br>
-			<input type="checkbox">Cherries<br>
-			<input type="checkbox">Corn (3 ears)<br>
+			<button type="submit" id="add-items">Add item</button>
+		<ul id="list" class="buyitems">
+			<li class="items">Limes</li>
+			<li class="items">One large eggplant</li>
+			<li class="items">Bananas</li>
+			<li class="items">Cherries</li>
+			<li class="items">Corn (3 ears)</li>
 		</ul>
-		<button type="reset" id="reset-items">Clear list</button>
-	</div>
-	<div class="lists-button">
-		<button>Saved Lists</button>
-	</div>
+		<br>
+		<button class="reset" type="reset" id="reset-items">Clear list</button>
+		<br>
+		<button type="submit" id="saved">Saved Lists</button>
+	</div> 
 </body>
 </html>
