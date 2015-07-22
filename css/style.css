@@ -8,9 +8,49 @@ li {
 	cursor: pointer;
 	}
 
-button {color: red;}
+#add-items, #reset-items, #saved {
+  background: #b7c1c7;
+  background-image: -webkit-linear-gradient(top, #b7c1c7, #7d99ab);
+  background-image: -moz-linear-gradient(top, #b7c1c7, #7d99ab);
+  background-image: -ms-linear-gradient(top, #b7c1c7, #7d99ab);
+  background-image: -o-linear-gradient(top, #b7c1c7, #7d99ab);
+  background-image: linear-gradient(to bottom, #b7c1c7, #7d99ab);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: red;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+}
 
-#nextlist, #thirdlist {color: black}
+#add-items:hover, #reset-items:hover, #saved:hover {
+  background: #73818a;
+  background-image: -webkit-linear-gradient(top, #73818a, #2f4757);
+  background-image: -moz-linear-gradient(top, #73818a, #2f4757);
+  background-image: -ms-linear-gradient(top, #73818a, #2f4757);
+  background-image: -o-linear-gradient(top, #73818a, #2f4757);
+  background-image: linear-gradient(to bottom, #73818a, #2f4757);
+}
+
+#nextlist, #thirdlist {
+	background: #f0d3ce;
+  background-image: -webkit-linear-gradient(top, #f0d3ce, #c79b97);
+  background-image: -moz-linear-gradient(top, #f0d3ce, #c79b97);
+  background-image: -ms-linear-gradient(top, #f0d3ce, #c79b97);
+  background-image: -o-linear-gradient(top, #f0d3ce, #c79b97);
+  background-image: linear-gradient(to bottom, #f0d3ce, #c79b97);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+  border: solid #000000 2px;
+	color: black;
+}
+
+#nextlist:hover, #thirdlist:hover {
+	background: #d1dee6;
+}
 
 p, .todo, .hardware, #nextlist, #thirdlist {display: none;}
 
@@ -36,3 +76,5 @@ p, .todo, .hardware, #nextlist, #thirdlist {display: none;}
 #saved {margin-top: 20px;}
 
 #nextlist, #thirdlist {margin-bottom: 10px;}
+
+.remove {margin-right: 10px;}

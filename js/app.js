@@ -4,9 +4,10 @@ $(document).ready(function() {
 		if(text.length){
 			$('<li />', {html:text}).prependTo('ul.buyitems');
 		}
+		$('ul').show();
 	})
 
-	$('.container').on('click', '#reset-items', function(){
+	$('.container').on('click', '#reset-items', function(event){
 		$('ul').hide();
 
 	})
@@ -19,4 +20,6 @@ $(document).ready(function() {
 	$('container').on('click', '#nextlist', function() {
 		
 	})
+
+	
 })
