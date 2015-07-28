@@ -8,6 +8,7 @@ li {
 	cursor: pointer;
 	}
 
+
 #add-items, #reset-items, #saved {
   background: #b7c1c7;
   background-image: -webkit-linear-gradient(top, #b7c1c7, #7d99ab);
@@ -54,7 +55,7 @@ li {
 
 p, .todo, .hardware, #nextlist, #thirdlist {display: none;}
 
-.buyitems {list-style: none;
+ul {list-style: none;
 	text-align: left;}
 
 .main {
@@ -78,3 +79,5 @@ p, .todo, .hardware, #nextlist, #thirdlist {display: none;}
 #nextlist, #thirdlist {margin-bottom: 10px;}
 
 .remove {margin-right: 10px;}
+
+.purchased {color: red;}
