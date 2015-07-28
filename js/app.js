@@ -15,14 +15,15 @@ $(document).ready(function() {
 			$('<li />', {html:text}).prependTo('ul.' + activeList);
 		}	
 	}
-/*This is not working*/	
-	$('.container').on('click', 'ul.' + activeList + 'li.items', function(event){
-		$('ul.' + activeList + 'li.items').toggleClass('.purchased');
+
+	$('.container').on('click', 'ul.list li', function(event){
+		$(this).toggleClass('purchased');
+		/*console.log('purchased item')*/
 	})
 /*This is not working*/
 	$('.container').on('click', '#reset-items', function(event){
 		console.log('removing selected');
-		$('ul.' + activeList + 'li.purchased').remove();
+		$('ul.' + activeList + ' li.purchased').remove();
 	})
 
 	$('.container').on('click', '#saved', function(){
